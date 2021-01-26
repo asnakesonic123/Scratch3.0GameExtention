@@ -9,3 +9,4 @@ Hi, User!
 <a href="#" class="button big">Create Project</a>
 <p>
 </p>
+<input type='text' id="input2" class='error'>
