@@ -10,3 +10,9 @@ Hi, User!
 <p>
 </p>
 <input type='text'></input>
+<p>
+</p>
+<div id="name">
+<label for="input-name">Name </label>
+<input type="text" name="name" id="input-name">
+</div>
