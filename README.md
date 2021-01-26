@@ -3,3 +3,4 @@
 <button type="button"
   onclick="document.getelementbyid("Top").innerHTML="Hi, User!"">
   Hi, User!</button>
+<a href="#" class="button">Post comment</a>
