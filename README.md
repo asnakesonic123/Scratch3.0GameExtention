@@ -6,7 +6,7 @@ Hi, User!
 <a href="#" class="button">Post comment</a>
 <p>
 </p>
-<a href="#" class="button big">Create Project</a>
+<a href="https://scratch.mit.edu/" class="button big">Create Project</a>
 <p>
 </p>
 <input type='text'></input>
