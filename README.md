@@ -1,2 +1,5 @@
 # scratch-3.0-GUI-extention
-Hi, Gaming Extention!
+<p id="Top">Hi, Gaming Extention!<p>
+<script>
+  document.getelementbyid("Top").innerHTML="Hi, User!"
+</script>
