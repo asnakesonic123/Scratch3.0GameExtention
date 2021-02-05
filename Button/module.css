@@ -1,0 +1,108 @@
+@import '~@bit/ans.base-ui._variables';
+
+.root {
+  position: relative;
+  color: #fff;
+  background: $primaryColor;
+  cursor: pointer;
+  border: 0.1rem solid $primaryColor;
+  line-height: 1;
+  border-radius: 0.4rem;
+  box-shadow: inset 0 -0.4rem darken($primaryColor, 10%);
+  display: block;
+  padding: 0.9em 1.4rem;
+  transition: all .2s ease-in-out;
+  letter-spacing: 0.04em;
+  overflow: hidden;
+  font-weight: 500;
+
+  &:hover {
+    background: darken($primaryColor, 4%);
+    color: $lightGrey;
+  }
+
+  &[disabled] {
+    cursor: not-allowed;
+    color: lighten($primaryColor, 20%) !important;
+  }
+
+  & > svg {
+    margin-right: 0.5em;
+    float: left;
+  }
+}
+
+.inline {
+  display: inline-block;
+}
+
+.iconOnly {
+  svg {
+    margin: 0;
+  }
+}
+
+.loadingOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba($primaryColor,0.85);
+  text-align: center;
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &:after {
+    content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid" class="lds-rolling" style="background: none;" stroke="currentColor"><circle cx="50" cy="50" fill="none" stroke="white" stroke-width="10" r="35" stroke-dasharray="164.93361431346415 56.97787143782138" transform="rotate(203.819 50 50)"><animateTransform attributeName="transform" type="rotate" calcMode="linear" values="0 50 50;360 50 50" keyTimes="0;1" dur="1s" begin="0s" repeatCount="indefinite"></animateTransform></circle></svg>');
+    width: 2em;
+    height: 2em;
+    display: inline-block;
+    opacity: 0.5;
+  }
+}
+
+.secondary {
+  background: $lightGrey;
+  box-shadow: inset 0 -0.4rem $grey;
+  color: $darkGrey;
+  border: 0;
+  &:hover {
+    background: darken($lightGrey, 5%);
+    color: $darkGrey;
+  }
+}
+
+.outline {
+  background: transparent;
+  color: $primaryColor;
+  box-shadow: none;
+
+  &:hover {
+    background: rgba($primaryColor, 0.05);
+    color: #000;
+  }
+}
+
+.small {
+	font-size: 1rem;
+	box-shadow: none;
+	* {
+	  font-size: 1rem;
+	}
+  }
+
+  .large {
+	font-size: 2rem;
+	* {
+	  font-size: 2rem;
+	}
+  }
+
+  .xlarge {
+	font-size: 3rem;
+	* {
+	  font-size: 3rem;
+	}
+  }
