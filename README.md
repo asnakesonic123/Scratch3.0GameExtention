@@ -8,3 +8,11 @@ Here are some examples of games this extention will simplify:
 Or you can go [Here](https://github.com/asnakesonic123/Scratch3.0GameExtention/blob/main/README.md#examples)
 
 ### Examples
+|Game|
+|-|
+|Platformer|
+|Scrolling Platformer|
+|3D Platformer|
+|Simple Clicker|
+|Hard Clicker|
+| |
